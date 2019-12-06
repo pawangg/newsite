@@ -768,7 +768,7 @@ to{opacity:1}
 .other-items ul li:nth-child(4) a svg{fill:#fff;width:26px}
 .badge{display:inline-block;min-width:10px;padding:4px;font-size:10px;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:middle;background-color:#d71920;border-radius:10px;position:absolute;top:-7px;right:17px}
 .active{border-bottom:5px solid #ff3720}
-.top-add-section{width:100%;height:auto;margin-top:10px; margin-bottom: 10px;}
+.top-add-section{width:100%;height:auto;margin-top:10px; margin-bottom: 15px;}
 .mrrtb.top-add-section{ margin-top: 20px; margin-bottom: 10px;}
 .inner-ad-section{width:970px;margin:0 auto;height:auto}
 .inner-ad-section img{width:100%;display:block;height:auto}
@@ -1722,7 +1722,7 @@ END face check section END
 .mb3.page-hd{ margin-bottom: 3px;}
 .mb8.page-hd{ margin-bottom: 8px;}
 .none-bdr .page-hd{ border-bottom: 0px;}
-.page-hd h1{font:700 32px/34px 'Noto Sans',sans-serif;color:#000}
+.page-hd h1{font:700 32px/38px 'Noto Sans',sans-serif;color:#000}
 .social-share{margin-left:auto;position:relative;top:-4px}
 .social-share ul{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;align-items:center}
 .social-share ul li{line-height:0}
@@ -4285,12 +4285,15 @@ Rhs Home Page Section
 		@media (max-width:1024px){
 		.navigation-at{ background:#002866; z-index: 9; position: relative;}
 		.navigation-at .container{ display: flex; align-items: center; justify-content:flex-start; display: flex; height: 51px;}
-		.navigation-at .logo{ width:50px; }.navigation-at .logo img{ width: 52px; position: absolute; left: 80px; top: 6px;}
+        .innerPage .navigation-at .container{ height: 40px;}
+		.navigation-at .logo{ width:50px; }
+        .navigation-at .logo img{ width: 52px; position: absolute; left: 80px; top: 6px;}
+        .innerPage .navigation-at .logo img{ width: 86px; top: -13px; left: 58px;}
 		.mb-nav{width:21px; height:22px;display: flex; flex-direction: column; justify-content: space-evenly;}
 		.mb-nav span{ display: block; height:2px; background:#ffffff;width: 20px; }
-		.other-navigation-list{ display: flex; flex: 1 0 0; justify-content: flex-end; position: relative; padding-top: 16px;}
+		.other-navigation-list{ display: flex; flex: 1 0 0; justify-content: flex-end; position: relative; padding-top: 12px;}
 		.other-navigation-list > div {padding:0 8px;}
-		.other-navigation-list > div svg{width: 26px; margin-top: -5px;}
+		.other-navigation-list > div svg{width: 26px; margin-top: -7px;}
 .navigation-at nav{ position: absolute;left: 0; top:0; background-color: transparent; width:60vw; height:100vh; position: fixed; transform: translateX(-60vw);z-index:99;transition: all ease-in .15s;}
 .navigation-at nav ul.at-menu{padding:0;overflow-y:auto; background-color: #002866; height:100vh; }
 .navigation-at nav ul.at-menu li a{ font-size:16px; text-decoration: none; color:#fff; font-weight:600; padding: 10px 0; display: block; font-weight: normal;}
@@ -4407,7 +4410,7 @@ nav ul li.child-dropdown::after {
 			.navigation-at {padding-top:0px;}
 			.navigation-at nav{flex-basis: calc(100% - 220px); margin-left: 160px; position: relative;}			
 			.navigation-at .logo{top: -30px; width: 130px;}
-            .navigation-at.inner-header .logo{ width: 71px; line-height: 0px; top:3px;}
+            .innerPage .navigation-at .logo{ width: 71px; line-height: 0px; top:3px;}
 			.navigation-container{ margin-top: 0px; transition: all .5s;-webkit-transition: all .5s;}
 			.navigation-at.fixed-nav .navigation-container .container{min-height: 70px;align-items: flex-end;
     padding-bottom: 9px;transition: all .5s;-webkit-transition: all .5s;}
@@ -4434,7 +4437,7 @@ nav ul li.child-dropdown::after {
 
 .top-hed-menu ul{max-width: 100%; display: flex; flex-wrap: wrap;}
 .top-hed-menu ul li{ padding:0px 35px 3px 0px;}
-.top-hed-menu ul li a{ font-size: 12px; font-weight: bold; color: #666;}
+.top-hed-menu ul li a{ font-size: 12px; font-weight: bold; color: #666; white-space: nowrap;}
 .top-hed-menu ul li.active{border: none;}
 .top-hed-menu ul li.active a{ color: #000000;}
   
@@ -4467,7 +4470,6 @@ nav ul li.child-dropdown::after {
 }
 .top-hed-menu ul li {
     padding: 4px 15px 4px 0px;
-    min-width: 115px;
 }
 .weather-div {
     width: 80%;
@@ -4480,6 +4482,24 @@ nav ul li.child-dropdown::after {
 @media (max-width: 1024px){
     .wether-body{
         padding: 5px 0px 3px;
+    }
+    body.innerPage{
+        padding-top: 90px;
+    }
+    .innerPage .top-head-body{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 999;
+        background-color: #fff;
+    }        
+    .innerPage .navigation-at{
+        position: fixed;
+        top: 36px;
+        width: 100%;
+        left: 0px;
+        z-index: 999;
     }
 }
 
@@ -4510,16 +4530,25 @@ nav ul li.child-dropdown::after {
 }  
 
 .top-hed-menu ul li {
-    padding: 5px 0px 5px 0px;
-    flex-basis: 120px;
-    min-width: 105px;
+    padding: 5px 15px 4px 0px;
     text-align: center;
 }
     
+.top-hed-menu ul li a{
+    white-space: nowrap;
+}
+    
 .login {
-    margin-top: 7px;
+    margin-top: 1px;
  }    
- 
+    .innerPage .navigation-at .container{
+        height: 50px;
+    }
+    .innerPage .navigation-at .logo img{
+        width: 52px;
+        top: 6px;
+        left: 48px;
+    }
     
 }
 
@@ -4792,19 +4821,21 @@ search secation
 
 
 @media (max-width: 1199px){
-  .search-section {
-    width: 80%;
-    margin-left: 14%;
-}  
-    
-    
-.secarch-body {
-    width: 93%;
-    padding: 5px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0%;
+    .search-section {
+        width: 80%;
+        margin-left: 16%;
+    }  
+    .secarch-body {
+        width: 93%;
+        padding: 1px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0%;
     }
+    
+    .form-controll{
+       height: 36px; 
+    }  
 }
 
 
