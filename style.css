@@ -104,6 +104,7 @@ background-color: #eeeeee;}
 .px10{padding-right:10px;padding-left:10px}
 .px15{padding-right:15px;padding-left:15px}
 .pa0{padding:0}
+.pb7{padding:7px}
   
 .bdrb{ border-bottom: 1px solid #e5e5e5;}
 .bgbg-gry{background-color:#dcdcdc;}
@@ -117,6 +118,7 @@ background-color: #eeeeee;}
 .mb20{margin-bottom:20px}
 .mrbb10{ margin-bottom: 10px;}
 .mrbb15{ margin-bottom: 15px;}
+.mrbb12{ margin-bottom: 12px;}
 .mrbb25{ margin-bottom: 25px !important;}
 .mrrt7{ margin-top: 7px;}
 .mrrt12{ margin-top: 12px;}
@@ -263,9 +265,9 @@ padding: 25px 0px;}
 .ml-tagline{font:600 13px/16px 'Open Sans',sans-serif;color:#ccc;margin-bottom:8px}
 .at-form-group{margin-bottom:5px}
 .at-form-group input[type='text'],.at-form-group input[type='email']{background-color:transparent;border:none;border-bottom:1px solid rgba(255,255,255,0.4);color:#fff;width:100%;height:32px;font:600 14px/18px 'Open Sans',sans-serif}
-.at-form-group input[type='text']{background:url(../img/formusericon.png) calc(100% - 12px) center no-repeat}
-.at-form-group input[type='email']{background:url(../img/mailicon.png) calc(100% - 8px) center no-repeat}
-.at-form-group select{width:100%;height:30px;background-color:transparent;border:none;border-bottom:1px solid rgba(255,255,255,0.4);color:#fff;font:600 14px/18px 'Open Sans',sans-serif;background:url(../img/downCaret.png) calc(100% - 15px) center no-repeat;-webkit-appearance:none;-moz-appearance:none;appearance:none}
+.at-form-group input[type='text']{background:url(../img/formusericon.png) calc(100% - 12px) center no-repeat; outline: none;}
+.at-form-group input[type='email']{background:url(../img/mailicon.png) calc(100% - 8px) center no-repeat; outline: none;}
+.at-form-group select{width:100%;height:30px;background-color:transparent;border:none;border-bottom:1px solid rgba(255,255,255,0.4);color:#fff;font:600 14px/18px 'Open Sans',sans-serif;background:url(../img/downCaret.png) calc(100% - 15px) center no-repeat;-webkit-appearance:none;-moz-appearance:none;appearance:none; outline: none;}
 .at-form-group select option{color:#000;padding:0 10px}
 .at-form-group input::-webkit-input-placeholder{color:#fff;font-weight:700}
 .at-form-group input::-moz-placeholder{color:#fff;font-weight:700}
@@ -1231,7 +1233,7 @@ ul.socialnewtwork li a svg {
 .swiper-button-prev,.swiper-container-rtl .swiper-button-next{background:none!important}
 
 .slider-arrow-left {
-    width: 19px;
+    width: 13px;
     height: 13px;
     position: absolute;
     left: 45px;
@@ -1239,7 +1241,7 @@ ul.socialnewtwork li a svg {
 }
 .slider-arrow-left svg{fill:red}
 .slider-arrow-right {
-    width: 11px;
+    width: 12px;
     height: 13px;
     position: absolute;
     right: 47px;
@@ -1891,12 +1893,14 @@ END face check section END
 .mb8.page-hd{ margin-bottom: 8px;}
 .none-bdr .page-hd{ border-bottom: 0px;}
 .page-hd h1{font:700 32px/38px 'Noto Sans',sans-serif;color:#000}
-.social-share{margin-left:auto;position:relative;top:-4px}
+.social-share{margin-left:auto;position:relative;top:-6px}
 .social-share ul{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;align-items:center}
 .social-share ul li{line-height:0}
 .social-share ul > li:not(:last-child){margin-right:14px}
 .social-share ul li a{display:inline-block;width:21px;height:21px;text-align:center}
 .social-share ul li a svg,.social-share ul li a svg path{height:20px;width:20px;fill:#666}
+
+
 
 /*@media only screen and(max-width:1199px) {
 .delhi-aaj-head.page-hd{ }
@@ -2421,12 +2425,12 @@ ul.dotdonw li a{color:#fff}
 
 
 @media (max-width:1199px){
- 
+.event-slider-body-inner > .chunk-img {width: 209px;}
+.event-slider-body-inner h2 {font-size: 20px; line-height: 26px; margin: 3px;}
     
-.event-slider-body-inner > .chunk-img {
-    width: 209px;
-}
-
+    
+    
+    
 }
 
 @media (max-width:767px){
@@ -5194,7 +5198,7 @@ widget listing page
 .widget-listing-content-section p{ font-size: 16px; color: #676767; margin-bottom: 15px; line-height: 22px;}
 .widget-listing-content-section p a{color: #676767;}
 
-
+.lsg.page-hd{ padding-bottom: 7px; padding-top: 12px;}
 
 
 
@@ -5204,11 +5208,14 @@ widget listing page
 @media (max-width:767px) {
 .widget-listing-thumb {width: 99px; height: 54px; margin-right: 15px;}
 .widget-listing-content-section {width: calc(100% - 115px);}
-.widget-listing-content-section h2{ font-size: 17px; color: #000; line-height: 20px;}
+.widget-listing-content-section h2{ font-size: 17px; color: #000; line-height: 23px; margin-top: -5px}
 .widget-listing-content-section h5{display: none;}
 .widget-listing-content-section p{display: none;}
 
-
+.lsg.page-hd {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 }
 
