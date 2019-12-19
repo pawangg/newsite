@@ -237,15 +237,12 @@ padding: 25px 0px;}
 .widget-title {display: flex;}
 .widget-head .widget-title span {
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
     margin-right: 7px;
     margin-top: 2px;
 }
-.widget-head .widget-title span svg{
-    width: 12px;
-    height: 12px;
-}
+
 
 
 
@@ -5104,20 +5101,21 @@ tranding-new-rhs
 .bhttpg ul li .title{font-size: 20px; line-height: 27px;}
 .bhttpgfiv ul.md-thumb-listing li .title h3 {line-height: 27px;}
 .bhttpgfiv .widget-body .fv_left-sec .fv-first-story .fv-first-thumb {border: 1px solid #d1d1d1}
-
 .bhrat-page-rhs .tranding-news-body .tranding-news-list .tranding-news-cont { width: calc(100% - 120px); line-height: 22px; font-size: 15px;}
-
 .bhrat-page-rhs .tranding-news-body .tranding-news-list .thmb-tranding {width: 100px; height: 56px;}
-
 .bhrtslider.widget-body{width: 916px; height:auto; margin: 0 auto}
 
 
 
 @media (max-width:1199px) {
-.tranding-news-body{ width: 49%; margin-right: 1%;}    
-.bhrtslider.widget-body {
-    width: 95%;
- }
+.bhrat-page-rhs .tranding-news-body {width: 48.6%; margin-right: 10px;}
+.bhrat-page-rhs .related-news-body {width: 48.6%; margin-left: 10px;}
+.bhrtslider.widget-body {width: 95%;}
+
+.bhrt-tb-nwAd .add-center-div .add-section img{margin-left: 0px;}
+.bhrt-tb-nwAd.rhs-add-form .add-center-div{padding-top: 25px; padding-bottom: 0px;  height: 100%;}
+
+    
 }
 
 
@@ -5131,8 +5129,27 @@ tranding-new-rhs
     width: 100%;
     margin-left: 0%;
 }    
+
+.bhttpg ul li .title {
+    font-size: 18px;
+    line-height: 25px;
+}    
+ .bhrat-page-rhs .tranding-news-body {
+    width: 100%;
+    margin-right: 0px;
+}
+.bhrat-page-rhs .related-news-body {
+    width: 100%;
+    margin-left: 0px;
+}
+.bhrt-tb-nwAd.rhs-add-form .add-center-div{padding:0px; margin-top: 10px;}
+.bhrt-tb-nwAd .add-section{margin-bottom:0px;}
+
     
     
+.event-slider-cont .slider-arrow-left {left: 45px; display: block; width: 16px;}
+.event-slider-cont .slider-arrow-right {right: 45px; display: block; width: 16px;}   
+.ad-300X250-body .ad-300X250{padding: 0px 0px;}   
 }
 
 
@@ -5145,16 +5162,16 @@ tranding-new-rhs
 @media (max-width:1199px) { 
 .rhs-add-form{width: 100%; display: flex; }
 .rhs-add-form .add-center-div {
-    width: 49%;
+    width: 48.6%;
     text-align: center;
     background-color: #efefef;
-    margin-right: 1%;
-    padding-top: 60px;
+    margin-right: 10px;
+}   
+.rhs-add-form .dialy-news-form-container {
+    width: 48.6%;
+    margin-left: 10px;
+    text-align: left;
 }
-   
-.rhs-add-form .dialy-news-form-container{width: 49%; margin-left: 1%; text-align: left;}
-}
-
 
 @media (max-width:767px) {
     
