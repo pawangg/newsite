@@ -3351,7 +3351,7 @@ ul.widget-life-body-listing .title {
 
 
 ul.widget-life-body-listing .title h3 {
-    font: 400 15px/22px 'Noto Sans',sans-serif;
+    font:700 18px/24px 'Noto Sans',sans-serif;
     color: #333;
     margin-top: -3px;
 }
@@ -4671,8 +4671,8 @@ nav ul li.child-dropdown::after {
     text-transform: uppercase;
 }
 
-.login span{width: 24px; margin-right: 5px; display: flex; align-items: center}
-.login span svg{width: 24px; color: #919191;}
+.login span{width: 14px; margin-right:8px; display: flex; align-items: center}
+.login span svg{width: 14px; height: 14px; color: #919191; fill:#919191}
 
 
 .wether-body{ width: 100%; height: auto; padding: 5px 0px 1px;}
