@@ -879,6 +879,36 @@ to{opacity:1}
 .rashi-read-more a{font:400 15px/20px 'Noto Sans',sans-serif;color:#ffe600}
 .rashi-read-more a svg{fill:#ffe600;position:relative;top:-1px;height:9px;width:9px}
 
+@media (max-width:991px){
+    .rashi-tab-content{
+        padding: 10px 15px;
+    }
+    .rashiphal .swiper-slide{
+        height: 40px;
+    }
+    .rashiphal .swiper-slide svg{
+      width: 26px;
+      line-height: 26px;
+    }
+    .rashiphal .swiper-slide-active{
+        height: 53px;
+    }
+    .rashiphal .swiper-slide-active svg{
+        height: 36px;
+        width: 36px;
+    }
+    .rashi-body-inner h4{
+        font-size: 26px;
+        line-height: 27px;
+        margin-bottom: 7px;
+    }
+    .rashi-body-inner p{
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+}
+
 
 /*** 
 ====================================================================
@@ -2282,17 +2312,21 @@ width: 13px;
 .home-story-slider .swiper-button-next svg polygon, .home-story-slider .swiper-button-prev svg polygon{
     fill:#fff;
 }
-.home-story-slider .swiper-pagination{
+.home-story-slider .swiper-pagination, .hm-badikhbre-slide .swiper-pagination{
   position: static;
   margin-top: 14px;
 }
-.home-story-slider .swiper-pagination-bullet{
+.hm-badikhbre-slide .swiper-pagination{
+    margin-top: 1px;
+    display: none;
+}
+.home-story-slider .swiper-pagination-bullet, .hm-badikhbre-slide .swiper-pagination-bullet{
     width:10px;
     height: 10px;
     background: #b8b8b8;
     opacity: 1;
 }
-.home-story-slider .swiper-pagination-bullet-active{
+.home-story-slider .swiper-pagination-bullet-active, .hm-badikhbre-slide .swiper-pagination-bullet-active{
     background:#d71920;
 }
  
@@ -2325,9 +2359,24 @@ width: 13px;
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
    .story-listing li h3{
         font-size: 14px;
-    }   
+    } 
+    .home-story-slider .swiper-button-next, .home-story-slider .swiper-button-prev{
+        top: 87px;
+    }
+    .home-story-slider .swiper-button-next svg, .home-story-slider .swiper-button-prev svg{
+        height: 20px;
+        width: 20px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        width: 20px;
+        height: 22px;
+    }
 }
-
+@media (max-width: 1024px){
+    .hm-badikhbre-slide .swiper-pagination{
+        display: block;
+    }
+}
 @media only screen and (max-width: 767px) {
 
 .main-add-sec{ width: 100%;}        
