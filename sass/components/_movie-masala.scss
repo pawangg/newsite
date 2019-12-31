@@ -1,0 +1,61 @@
+/***
+====================================================================
+    Movie Masala Homepage
+====================================================================
+***/ 
+.video-section-widget{width:100%;height:auto;background-color:#002866;padding:10px 0 15px}
+.video-section-widget .widget-title h2{color:#fff}
+.video-section-widget .widget-more a{color:#fff}
+.video-section-widget .widget-head{margin-bottom:18px}
+.video-inner-body{width:100%;height:auto;display:flex;flex-wrap:wrap}
+.video-inner-body-lhs{width:100%;height:auto;-webkit-box-flex:0;-ms-flex:0 0 18.12%;flex:0 0 18.12%;max-width:18.12%;margin-right:35px}
+.video-lhs-are{width:100%;height:auto}
+.video-lhs-are ul{margin:0;padding:0;list-style:none}
+.video-lhs-are ul li{width:100%;height:auto;border-bottom:1px solid #1a3e76;padding-bottom:8px;margin-bottom:12px}
+.video-lhs-are ul li:last-child{border-bottom:none;margin-bottom:0;padding-bottom:5px}
+.video-lhs-are ul li .vidoe__img__content{width:100%;height:auto}
+.video-lhs-are ul li .vido__img{border:1px solid #d1d1d1;position:relative}
+.video-lhs-are ul li .vido__img img{width:100%;height:auto;display:block}
+.video-inner-body .video-inner-body-lhs:last-child{margin-right:0;margin-left:35px}
+.vidoe__img__content h3{font-size:15px;color:#fff;font-weight:700;margin-top:15px;line-height:20px}
+.vidoe__middel__widget{width:100%;-ms-flex:0 0 58.19%;flex:0 0 58.19%;max-width:58.19%;padding:0 38px 0 39px;border-left:1px solid #1a3e76;border-right:1px solid #1a3e76}
+.vidoe__middel__widget__inner{width:100%;border:1px solid #bfc0ca;position:relative}
+.vidoe__middel__widget__inner::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:-moz-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(180,180,180,0) 50%,rgba(0,0,0,1) 100%);background:-webkit-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(180,180,180,0) 50%,rgba(0,0,0,1) 100%);background:linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(180,180,180,0) 50%,rgba(0,0,0,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#000000',GradientType=0)}
+.vidoe__middel__widget a{position:relative;display:block;width:100%}
+.fvcop_video_icon{position:absolute;bottom:10px;display:flex;width:100%}
+.vidoe__middel__widget .fvcop_video_icon .fv-cap{width:calc(100% - 110px);display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;align-items:flex-start;padding:0 10px;border-right:2px solid #3f4248;margin-right:30px}
+.vidoe__middel__widget__inner img{width:100%;height:auto;display:block}
+
+@media (max-width: 1199px) {
+.video-inner-body-lhs{width:235px;margin-right:10px}
+.vidoe__img__content h3{margin-top:8px}
+.video-lhs-are ul li{margin-bottom:8px}
+.video-inner-body .video-inner-body-lhs:last-child{margin-left:10px}
+.vidoe__middel__widget{width:calc(1290px - 580px);padding:0 10px}
+.vidoe__middel__widget .fv-cap h4{color:#fff;width:100%;margin-bottom:0;text-align:left;font-size:15px;color:#fff;font-weight:700;line-height:20px}
+.vidoe__middel__widget .fvcop_video_icon .fv-cap{align-items:center}
+.v-icon .v-dur{text-align:center}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.video-inner-body-lhs{-ms-flex:0 0 14.12%;flex:0 0 14.12%;max-width:14.12%}
+.vidoe__img__content h3{font-size:12px;line-height:16px}
+.vidoe__middel__widget{-ms-flex:0 0 69%;flex:0 0 69%;max-width:69%}
+}
+@media only screen and (max-width: 767px) {
+.vidoe__middel__widget{margin-left:-10px;-ms-flex:0 0 calc(100% + 20px);flex:0 0 calc(100% + 20px);max-width:calc(100% + 20px);padding:0;border-left:0;border-right:0;margin-bottom:16px;order:-1}
+.vidoe__middel__widget__inner{border:none}
+.fvcop_video_icon{padding:7px 0 8px 10px;position:static;background-color:rgba(0,0,0,0.4)}
+.vidoe__middel__widget .fvcop_video_icon .fv-cap{padding:0;-ms-flex:0 0 calc(100% - 72px);flex:0 0 calc(100% - 72px);max-width:calc(100% - 72px);margin-right:0;padding-right:10px}
+.vidoe__middel__widget .fvcop_video_icon .v-icon{width:100%;-ms-flex:0 0 72px;flex:0 0 72px;max-width:72px;text-align:center}
+.vidoe__middel__widget .fv-cap h4{font-size:20px;line-height:26px}
+.video-inner-body{flex-wrap:wrap}
+.video-inner-body-lhs{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;margin-right:0}
+.video-inner-body-lhs:first-child ul li > div{border-bottom:1px solid #1a3e76;padding-bottom:24px}
+.video-inner-body .video-inner-body-lhs:last-child{margin-left:0}
+.video-lhs-are ul{display:flex;flex-wrap:wrap;margin:0 -10px}
+.video-lhs-are ul li{width:50%;padding:0 10px;margin-bottom:2px}
+.video-lhs-are ul li:last-child{border-bottom:1px solid #1a3e76;margin-bottom:8px}
+.video-lhs-are ul li{border-bottom:none}
+.video-lhs-are ul li:last-child{border-bottom:none}
+.vidoe__img__content h3{line-height:22px;font-weight:400;margin-top:7px}
+}

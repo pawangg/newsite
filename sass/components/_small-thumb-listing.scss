@@ -1,0 +1,87 @@
+/***
+====================================================================
+    Small Thumbnail Listing
+====================================================================
+***/ 
+.sm-thumb-listing{margin-bottom:20px}
+.sm-thumb-listing li{margin-bottom:15px}
+.sm-thumb-listing.bb1 li{border-bottom: 1px solid #dfdfdf; padding-bottom: 14px;}
+.sm-thumb-listing li a{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;align-items:flex-start}
+.sm-thumb-listing.sm_thumb-grid3{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;align-items:flex-start;margin:0 -10px 0;}
+.sm-thumb-listing.sm_thumb-grid3 li{width:100%;-webkit-box-flex:0;-ms-flex:0 0 33.33%;flex:0 0 33.33%;max-width:33.33%;padding:0 10px;border-bottom: 0px;}
+.sm-thumb-listing.sm_thumb-grid3 li a{border-bottom: 1px solid #dfdfdf;padding-bottom: 11px;}
+.sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(1), .sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(2), .sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(3){margin-bottom: 0px;}
+.sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(1) a, .sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(2) a, .sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(3) a{border-bottom: 0px; padding-bottom: 0px;}
+.sm-thumb-listing .thumb{width:100%;-webkit-box-flex:0;-ms-flex:0 0 100px;flex:0 0 100px;max-width:100px;border:1px solid #d1d1d1;position:relative}
+.sm-thumb-listing .time-dur{position:absolute;bottom:0;left:0;background-color:#000;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;align-items:center;padding:3px 6px;line-height:0}
+.sm-thumb-listing .icon{margin-right:6px}
+.sm-thumb-listing .icon svg{fill:red;height:13px;width:13px}
+.sm-thumb-listing .time-dur .time{font:400 11px/15px 'Noto Sans',sans-serif;color:#fff}
+.sm-thumb-listing .thumb img{width:100%;display:block;height:auto}
+
+.sm-thumb-listing .title{padding-left:20px;width:100%;-webkit-box-flex:0;-ms-flex:0 0 calc(100% - 100px);flex:0 0 calc(100% - 100px);max-width:calc(100% - 100px)}
+.sm-thumb-listing .title h3{font:400 15px/22px 'Noto Sans',sans-serif;color:#333;margin-top:-3px}
+.sm-thumb-listing .title.title-bold h3{font-weight:700}
+.title-bold h3{font-weight:700}
+@media (max-width:1199px) {
+.sm-thumb-listing .thumb{-ms-flex:0 0 100px;flex:0 0 100px;max-width:100px}
+.sm-thumb-listing .title{-ms-flex:0 0 calc(100% - 100px);flex:0 0 calc(100% - 100px);max-width:calc(100% - 100px);padding-left:15px}
+.right-Player .left-sec .sm-thumb-listing li{margin-bottom:10px}
+}
+@media (max-width:767px){
+  .sm-thumb-listing.sm_thumb-grid3 li{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }  
+     .sm-thumb-listing.sm_thumb-grid3 .thumb{
+       -ms-flex: 0 0 98px;
+        flex: 0 0 98px;
+        max-width: 98px; 
+    }
+    .sm-thumb-listing.sm_thumb-grid3 .title{
+        -ms-flex: 0 0 calc(100% - 98px);
+        flex: 0 0 calc(100% - 98px);
+        max-width: calc(100% - 98px);
+    }
+    .sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(2), .sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(3){
+        margin-bottom: 15px;
+    }
+    .sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(2) a, .sm-thumb-listing.sm_thumb-grid3 li:nth-last-child(3) a{
+        padding-bottom: 11px;
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .right-Player .left-sec .sm-thumb-listing li{
+        margin-bottom: 20px;
+    }
+    .sm-thumb-listing .thumb{
+        -ms-flex: 0 0 98px;
+         flex: 0 0 98px;
+        max-width: 98px;
+    } 
+    .sm-thumb-listing .title {
+        -ms-flex: 0 0 calc(100% - 98px);
+        flex: 0 0 calc(100% - 98px);
+        max-width: calc(100% - 98px);
+        padding-left: 20px;
+    }
+    .sm-thumb-listing li{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:480px){
+    .sm-thumb-listing.sm_thumb-grid3 li{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        
+    }
+    .sm-thumb-listing.sm_thumb-grid3 .title{
+        padding-left: 25px;
+    }
+    
+  .surkhiya.widget-container.gray-bg .widget-body{ width: 99%; margin: 0px;} 
+     .right-Player .swiper-container{
+        padding-left: 10px;
+    }
+}

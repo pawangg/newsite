@@ -1,0 +1,56 @@
+.rashiphal{background:#263c54 url(../img/rashi-bg.jpg) center center no-repeat;padding:10px;margin-top:8px}
+.rashiphal .swiper-slide{background-color:transparent;cursor:pointer}
+.rashiphal .swiper-wrapper{padding-bottom:17px}
+.rashiphal .swiper-slide{background:-moz-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(252,253,253,0) 1%,rgba(1,32,57,1) 100%);background:-webkit-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(252,253,253,0) 1%,rgba(1,32,57,1) 100%);background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(252,253,253,0) 1%,rgba(1,32,57,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#012039',GradientType=0);height:46px;display:flex;align-items:center;justify-content:center;width:100%;max-width:63px}
+.rashiphal .swiper-slide-active{max-width:83px;height:63px;border-bottom-right-radius:8px;border-bottom-left-radius:8px;box-shadow:0 6px 12px rgba(255,255,255,0.5)}
+.rashiphal .swiper-slide span{line-height:0}
+.rashiphal .swiper-slide svg{height:33px;width:33px}
+.rashiphal .swiper-slide-active svg{height:38px;width:38px}
+.rashiphal .swiper-slide svg path{fill:#fff}
+.rashiphal .swiper-slide-active svg path{fill:#ffe600}
+.rashi-inner{border:1px solid #888e94;border-radius:3px}
+.rashi-tab-content{padding:15px;margin-top:-14px;display:none;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+@-webkit-keyframes fadeIn {
+0%{opacity:0}
+to{opacity:1}
+}
+@keyframes fadeIn {
+0%{opacity:0}
+to{opacity:1}
+}
+.rashi-tab-content.active{display:inline-block;-webkit-animation-name:fadeIn;animation-name:fadeIn;border:none}
+.rashi-body-inner{text-align:center}
+.rashi-body-inner h4{font:700 32px/34px 'Noto Sans',sans-serif;color:#fff;margin-bottom:10px}
+.rashi-body-inner p{font:400 20px/28px 'Noto Sans',sans-serif;color:#fff;margin-bottom:10px}
+.rashi-read-more a{font:400 15px/20px 'Noto Sans',sans-serif;color:#ffe600}
+.rashi-read-more a svg{fill:#ffe600;position:relative;top:-1px;height:9px;width:9px}
+
+@media (max-width:991px){
+    .rashi-tab-content{
+        padding: 10px 15px;
+    }
+    .rashiphal .swiper-slide{
+        height: 40px;
+    }
+    .rashiphal .swiper-slide svg{
+      width: 26px;
+      line-height: 26px;
+    }
+    .rashiphal .swiper-slide-active{
+        height: 53px;
+    }
+    .rashiphal .swiper-slide-active svg{
+        height: 36px;
+        width: 36px;
+    }
+    .rashi-body-inner h4{
+        font-size: 26px;
+        line-height: 27px;
+        margin-bottom: 7px;
+    }
+    .rashi-body-inner p{
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,83 @@
+/***
+====================================================================
+    Widget Style
+====================================================================
+***/ 
+.widget-container {
+	width: 100%;
+	height: auto;
+	margin-bottom: 13px;
+	position: relative;
+}
+.widget-container.bb10 {
+	border-bottom: 10px solid #efefef;
+}
+.widget-head {
+	@include flexbox;
+	align-items: center;
+	margin-bottom: 10px;
+	position: relative;
+	.widget-title {
+		span {
+			display: inline-block;
+			width: 14px;
+			height: auto;
+			margin-right: 7px;
+			margin-top: 5px;
+			svg {
+				width: 14px;
+				height: 100%;
+			}
+		}
+	}
+}
+.widget-title {
+	h2 {
+		font: 700 18px/28px 'Noto Sans',sans-serif;
+		color: #000;
+		width: 100%;
+	   }
+	display: flex;
+}
+.widget-more {
+	position: absolute;
+	text-align: right;
+	float: right;
+	align-items: right;
+	@include flexbox;
+	top: 6px;
+	right: 0;
+	a {
+		font: 700 15px/17px 'Noto Sans',sans-serif;
+		color: #d72722;
+		span {
+			display: inline-block;
+			margin-left: 2px;
+			line-height: 0;
+		}
+		svg {
+			height: 13px;
+			width: 13px;
+			fill: #d72722;
+		}
+	}
+}
+.widget-body-main {
+	width: 100%;
+	height: auto;
+}
+.widget-body {
+	width: 100%;
+	height: auto;
+}
+.widget-container.gray-bg {
+	.widget-body {
+		background-color: #f6f6f6;
+		padding: 17px 15px 0px;
+	}
+}
+.related-news-body {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
