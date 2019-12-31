@@ -1395,7 +1395,7 @@ ul.socialnewtwork li a svg {
 .sambandit-khabre-main{width:45%;margin-right:25px}
 
 .footer-right-left-sec{width:100%}
-.footer-upper-bottom-sec{margin-bottom:0}
+.footer-upper-bottom-sec{margin-bottom:0; padding-bottom: 11px; padding-top: 8px;}
 .footer-upper-bottom-sec ul{width:94%;margin:0 auto;text-align:center}
 .sub-footer{width:100%;height:auto;padding:10px 0;background-color:#1f1f1f;margin-bottom:0px}
 .container-hed{width:100%;margin:0 auto;padding:0 23px}
@@ -2875,7 +2875,7 @@ ul.dotdonw li a{color:#fff}
      .photoname-slide-container h3 {
         font-size: 20px;
         line-height: 26px;
-        width: calc(100% - 85px);
+        width: calc(100% - 81px);
     }
     .photo-thum-container h4, .widget-gallery-bottom-sec ul li a{
         font-size: 15px;
@@ -3252,9 +3252,13 @@ ul.md-thumb-listing li a .thumb {
  padding: 10px;    
 }
 .photoname-slide-container .img-slide {
-    width: 70px;
+    width: 66px;
     padding-left: 10px;
+    justify-content: center;
 }
+    .photoname-slide-container .img-slide span{
+        padding-left: 0px;
+    }
     .photo-gallery-thum ul li .photo-thum-container {
     margin-top: 10px;
 }
@@ -4189,9 +4193,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eae8e8', end
 width: 100%; height: 100%; padding: 25px 10px 0; display: flex;
     flex-wrap: wrap;}
 
-.tab-inner-body-lhs{ width: 185px; height: auto; margin-right: 10px;}
+.tab-inner-body-lhs{ width: 100px; -ms-flex: 0 0 20.97%;flex: 0 0 20.97%;max-width: 20.97%;height: auto; padding-right: 10px;}
 .tab-inner-body-lhs img{width: 100%; height: auto; display: block;}
-.tab-inner-body-rhs{ width: calc(100% - 205px);  margin-left: 10px;}
+.tab-inner-body-rhs{ width: 100%;-ms-flex: 0 0 79.03%;flex: 0 0 79.03%;max-width: 79.03%;  padding-left: 10px;}
 ul.rhs-area{ margin: 0px; padding: 0px; list-style: none; display: flex;}
 ul.rhs-area li{ width: 50.6%; margin-right: 10px;}
 ul.rhs-area li:last-child{width: 48.4%;margin-right: 0px; margin-left: 10px; }
@@ -4216,21 +4220,21 @@ ul.rhs-area li h3 {
  
 
 @media (max-width: 992px){
-     .tab_nav {
+ .tab_nav {
     overflow-x: scroll;
 }
  .tab_nav ul {
     width: 900px;
-}    
+}   
    
 }
 
 @media only screen and (max-width: 767px) {
  
-    .tab_nav ul {
+.tab_nav ul {
     padding-right: 0px;
 }
-    .widget-tab-body {
+.widget-tab-body {
     width: calc(100% + 20px);
     display: flex;
     flex-wrap: wrap;
@@ -4239,8 +4243,10 @@ ul.rhs-area li h3 {
 .tab-inner-body-lhs{ display: none;}    
 
 .tab-inner-body-rhs {
-    width: 100%;
-    margin-left: 0px;
+     -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0px;  
 }
     
 ul.rhs-area {
@@ -4251,6 +4257,9 @@ ul.rhs-area li {
     width: 100%;
     margin-right: 0px;
 }
+    ul.rhs-area li:last-child{
+        width: 100%;
+    }
     
 .tab-inner-body {
     padding: 0px;
