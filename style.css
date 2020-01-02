@@ -5043,11 +5043,12 @@ Rhs Home Page Section
 .notification-at  span{right: 0px; top: -6px;}	
 .livetv-at a svg{width: 27px; color: #fff; fill:#fff;}
 
-		/* Navigation AT  mobile Nav Start */
-.navigation-at .sticky-logo,  .navigation-at.fixed-nav .init-logo{
+/* Navigation AT  mobile Nav Start */
+
+.navigation-at .sticky-logo, .navigation-at.fixed-nav .init-logo{
     display: none;
 }
-.navigation-at .init-logo,   .navigation-at.fixed-nav .sticky-logo{
+.navigation-at .init-logo, .navigation-at.fixed-nav .sticky-logo{
     display: block;
 }
 @media (max-width:1024px){
