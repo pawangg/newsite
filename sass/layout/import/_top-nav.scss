@@ -1,0 +1,41 @@
+/*** 
+====================================================================
+    Top Nav
+====================================================================
+ ***/
+.top-head-body{width:100%;height:auto;border-bottom:1px solid #dfdfdf}
+.top-head-container{width:100%;display:flex;flex-wrap:wrap}
+.top-hed-menu{width:calc(100% - 80px);width:calc(100% - 95px);margin-right:15px}
+.top-hed-menu ul{max-width:100%;display:flex;flex-wrap:wrap}
+.top-hed-menu ul li{padding:0 31px 3px 0}
+.top-hed-menu ul li a{font-size:11px;font-weight:700;color:#938e8e;white-space:nowrap}
+.top-hed-menu ul li.active{border:none}
+.top-hed-menu ul li.active a{color:#000}
+.login{width:80px;font-size:11px;color:#938e8e;font-weight:700;align-items:center;display:block;display:flex;text-transform:uppercase}
+.login span{width:14px;margin-right:8px;display:flex;align-items:center}
+.login span svg{width:14px;height:14px;color:#919191;fill:#919191}
+
+@media (min-width:1025px){
+.innerPage .top-head-body{position: fixed;top: 0px;left: 0px;width: 100%;z-index: 999;background-color: #fff;} 
+}
+
+@media (max-width: 1199px){
+.top-hed-menu{overflow:hidden}
+.top-hed-menu ul{flex-wrap:nowrap;overflow:scroll}
+.top-hed-menu ul li{padding:4px 15px 4px 0}
+}
+
+@media (max-width: 1024px){
+.innerPage .top-head-body{position:fixed;top:0;left:0;width:100%;z-index:999;background-color:#fff}
+}
+
+@media (max-width: 767px) {
+.top-head-body{display:block}
+.top-hed-menu{overflow-x:scroll}
+.top-hed-menu ul{max-width:100%;flex-wrap:nowrap}
+.top-hed-menu ul li.active{background:none}
+.top-hed-menu ul li.active a{color:#000}
+.top-hed-menu ul li{padding:5px 15px 4px 0;text-align:center}
+.top-hed-menu ul li a{white-space:nowrap}
+.login{margin-top:1px}
+}
