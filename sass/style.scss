@@ -116,20 +116,7 @@
 // base
 @import "base/base";
 
-
 // components
-//@import "components/section-title";
-//@import "components/buttons";
-//@import "components/form";
-//@import "components/social-links";
-//@import "components/page-title";
-//@import "components/preloader";
-//@import "components/accordion";
-//@import "components/service-single-sidebar";
-//@import "components/blog-sidebar";
-//@import "components/pagination";
-//@import "components/style-switcher-box";
-
 @import "components/widget-style";
 @import "components/daily-newslatter";
 @import "components/fact-check";
@@ -144,9 +131,8 @@
 @import "components/thumbnail-grid";
 
 // layout
-//@import "layout/header";
-//@import "layout/hero-slider";
-//@import "layout/footer";
+@import "layout/header";
+@import "layout/footer";
 
 // components
 //@import "components/sticky-header";
@@ -154,17 +140,5 @@
 
 // page
 //@import "page/home-default";
-//@import "page/home-style2";
-//@import "page/home-style3";
-//@import "page/testimonials";
-//@import "page/team";
-//@import "page/faq";
-//@import "page/services";
-//@import "page/projects";
-//@import "page/project-single";
-//@import "page/service-single";
-//@import "page/contact";
-//@import "page/blog";
-//@import "page/blog-details";
 
 

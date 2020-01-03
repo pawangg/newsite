@@ -1,0 +1,37 @@
+/***  
+====================================================================
+    notification (bell)
+====================================================================
+***/
+
+.notification{width:300px;height:auto;border-top:4px solid #d71920;border-radius:4px;border-left:1px solid #bdbdbd;border-right:1px solid #bdbdbd;border-bottom:1px solid #d1d1d1;box-shadow:0 8px 9px #ccc;display:none;position:absolute;right:0px;background-color:#fff;z-index:9; top: 100%;}
+.noti-heading{padding:10px;border-bottom:1px solid transparent;border-top-left-radius:3px;border-top-right-radius:3px;margin-bottom:15px}
+.notification>.noti-heading{color:#333;background-color:#f4f4f4;display:flex;justify-content:space-between}
+.badge{display:inline-block;min-width:10px;padding:4px;font-size:10px;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:middle;background-color:#d71920;border-radius:10px;position:absolute;top:-7px;right:17px}
+.noti-left{display:flex}
+.noti-left h4{display:flex;display:inline-block;color:#000;font-size:14px;text-transform:uppercase;font-weight:700;width:calc(100% - 60px;)}
+.noti-left span{font-size:12px;color:#d71920}
+.noti-date{width:60px;color:#000;font-size:12px}
+.noti-body{width:100%}
+.noti-body ul{margin:0;padding:0;list-style:none;height:470px}
+.noti-body ul li{width:100%;border-bottom:1px solid #bdbdbd;padding-bottom:10px;margin-bottom:15px}
+.noti-li-main{width:100%;display:flex;padding:0 10px}
+.noti-li-img{width:45px;height:45px}
+.noti-li-img img{width:100%;height:auto;display:block}
+.noti-lext-area{width:calc(100% - 45px);margin-left:15px}
+.noti-lext-area p{font-size:14px;color:#000;line-height:18px;margin-bottom:0}
+.noti-lext-area h6{font-weight:400;color:#aeaeae;font-size:12px}
+.noti-footer{padding:10px 15px;background-color:#f5f5f5;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:rgba(158,158,158,1)}
+.mCSB_scrollTools .mCSB_draggerRail{background-color:#e9e9e9;background-color:rgba(233,233,233,1);width:8px}
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{background-color:#9e9e9e;background-color:rgba(158,158,158,1)}
+.mCSB_inside > .mCSB_container{margin-right:19px}
+
+@media only screen and (max-width: 992px) { 
+.badge{right:4px}
+}
+
+@media only screen and (max-width: 767px) {
+.notification {right: -50px;}
+.noti-body ul {height: 254px;} 
+}
