@@ -1,0 +1,20 @@
+/*** 
+====================================================================
+    Top Weather
+====================================================================
+ ***/
+
+.wether-body{width:100%;height:auto;padding:5px 0 1px}
+.weather-div{width:263px;margin-left:170px}
+
+@media (max-width: 1199px){
+    .weather-div{width:80%;margin-left:110px}
+}
+
+@media (max-width: 1024px){
+    .wether-body{padding:5px 0 3px}
+}
+
+@media only screen and (max-width: 767px) {
+    .weather-div{width:100%;margin-left:0}
+}
