@@ -6471,6 +6471,7 @@ flex: 0 0 32%;
 
 .factCheck-bg .mano-ranj-rhs li .ls-title {
     color: #fff;
+
     font-size: 26px;
     line-height: 33px;
     font-weight: bold;
@@ -7748,11 +7749,10 @@ margin-top: 15px;
 }         
 .maiBhagyaHu.widget-body {
     border: 0px;
-    margin-bottom: 12px;
-}
+    margin-bottom: 12px;}
+        
         
 }
-
 
 /*left side widget social icons*/
 
