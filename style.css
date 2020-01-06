@@ -2060,8 +2060,7 @@ END face check section END
 .vdldngrhs .widget-body{border-bottom:none;}
     
 .photolanding .ad-300X250-body{width: 100%;}    
-.photolanding .widget-container.mobphoto{width: 100%;}    
-     
+.photolanding .widget-container.mobphoto{width: 100%;} 
 }
 @media(max-width:479px) {
 .first-bg-video .cap h3{font-size:18px;line-height:24px;padding-left:10px;-ms-flex:0 0 calc(100% - 50px);flex:0 0 calc(100% - 50px);max-width:calc(100% - 50px)}
